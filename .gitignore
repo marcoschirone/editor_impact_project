@@ -1,0 +1,45 @@
+# =============================================================================
+# .gitignore — Editorial Board Member Research Impact Study
+# =============================================================================
+
+# --- Secrets: NEVER commit API keys or credentials ---
+.Renviron
+.Rprofile
+
+# --- R / RStudio session cruft ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# --- Generated outputs (regenerable by run_all.R) ---
+output/tables/*
+output/figures/*
+data/processed/*
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+!data/processed/.gitkeep
+
+# --- Proprietary / licensed data and Phase-1 harvest artefacts ---
+# Scopus, SciVal, and Overton records are licensed and MUST NOT be committed.
+# The SYNTHETIC sample files shipped in data/raw/ are safe and are committed.
+#
+# WARNING: data/raw/ uses the same file names for the synthetic samples as for the
+# real licensed exports. If you replace the samples with real Scopus/SciVal data,
+# do NOT commit those files — work on an un-pushed branch or move real data outside
+# the repository.
+scopus_eids*.csv
+scopus_authors_affiliations.csv
+scopus_metadata_selected_fields.csv
+scopus_errors.log
+scopus_*_checkpoint.txt
+authors_journal_publications.csv
+editors_own_journal_by_year.csv
+Dataset_Editorial_Boards_All.xlsx
+journal_issn_check.xlsx
+*_citation_20202024.xlsx
+*__*.xlsx
+
+# --- OS files ---
+.DS_Store
+Thumbs.db

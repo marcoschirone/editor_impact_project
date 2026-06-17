@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below. To cite the underlying research, see the paper listed under references."
+title: "Editorial board membership and citation elite status in sustainability science journals — analysis code"
+abstract: >-
+  Data-collection scripts and a reproducible R analysis pipeline accompanying the study of
+  whether editorial board members of sustainability science journals occupy positions of
+  scholarly and societal prominence (citation elite status, policy citations, patent citations).
+type: software
+authors:
+  - family-names: Schirone
+    given-names: Marco
+    orcid: "https://orcid.org/0000-0002-4166-153X"
+    affiliation: "Chalmers University of Technology; University of Borås"
+  - family-names: Rahman
+    given-names: "A. I. M. Jakaria"
+    orcid: "https://orcid.org/0000-0001-7876-4631"
+    affiliation: "Chalmers University of Technology"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/marcoschirone/editorial_board_membership"
+url: "https://github.com/marcoschirone/editorial_board_membership"
+keywords:
+  - editorial board members
+  - bibliometrics
+  - citation elite
+  - sustainability science
+  - science and technology indicators
+  - reproducibility
+
+references:
+  - type: conference-paper
+    title: "Editorial board membership and citation elite status in sustainability science journals"
+    authors:
+      - family-names: Rahman
+        given-names: "A. I. M. Jakaria"
+        orcid: "https://orcid.org/0000-0001-7876-4631"
+      - family-names: Schirone
+        given-names: Marco
+        orcid: "https://orcid.org/0000-0002-4166-153X"
+    collection-title: "Proceedings of the International Conference on Science and Technology Indicators (STI 2026)"
+    year: 2026
+    doi: "<DOI — placeholder>"

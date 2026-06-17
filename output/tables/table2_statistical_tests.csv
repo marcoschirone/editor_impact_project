@@ -1,0 +1,4 @@
+Analysis,Observed Rate,Expected Rate,Chi-squared,p-value,Conclusion
+Top 10% Citation vs 10%,21.1%,10%,11059.6,< 0.001,2.11× above expected
+Top 1% Citation vs 1%,1.6%,1%,276.9,< 0.001,1.58× above expected
+Top 10% Journal vs 10%,77.9%,10%,413120.8,< 0.001,7.79× above expected
