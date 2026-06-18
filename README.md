@@ -48,7 +48,7 @@ The repository includes:
 - project configuration files;
 - data-collection scripts;
 - documentation;
-- the publication DOI list (`STI_2026_paper_DOIs.txt`);
+- the publication DOI list (Publications_DOIs.txt);
 - a synthetic sample dataset that lets the workflow run without the licensed data (`data/raw/`);
 - the published tables and figures reported in the paper (`output/figures/`, `output/tables/`).
 
