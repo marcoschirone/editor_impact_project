@@ -7,14 +7,14 @@ abstract: >-
   scholarly and societal prominence (citation elite status, policy citations, patent citations).
 type: software
 authors:
-  - family-names: Schirone
-    given-names: Marco
-    orcid: "https://orcid.org/0000-0002-4166-153X"
-    affiliation: "Chalmers University of Technology; University of Borås"
   - family-names: Rahman
     given-names: "A. I. M. Jakaria"
     orcid: "https://orcid.org/0000-0001-7876-4631"
     affiliation: "Chalmers University of Technology"
+- family-names: Schirone
+    given-names: Marco
+    orcid: "https://orcid.org/0000-0002-4166-153X"
+    affiliation: "Chalmers University of Technology; University of Borås"
 version: "1.0.0"
 license: MIT
 repository-code: "https://github.com/marcoschirone/editorial_board_membership"
